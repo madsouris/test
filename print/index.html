@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test print</title>
+    <style>
+        html, body {
+            font-family:  'Segoe UI', sans-serif;
+            background-color: white;
+            color: #333333;
+        }
+        body * {
+            box-sizing: border-box;
+        }
+        h1,h2,h3,h4,h5 {
+            letter-spacing: -0.1rem;
+            color: black;
+        }
+        img {
+            max-width: 100%;
+        }
+        button {
+            font-size:15px;
+            width:140px;
+            height:50px;
+            border-width:1px;
+            color:#fff;
+            border-color:#4b8f29;
+            font-weight:bold;
+            border-top-left-radius:4px;
+            border-top-right-radius:4px;
+            border-bottom-left-radius:4px;
+            border-bottom-right-radius:4px;
+            box-shadow: 0px 10px 14px -7px #3e7327;
+            text-shadow: 0px 1px 0px #5b8a3c;
+            background:linear-gradient(#77b55a, #72b352);
+            cursor: pointer;
+        }
+        button:hover {
+            background: linear-gradient(#72b352, #77b55a);
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .row {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .col {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <button onclick="window.print()">Print</button>
+            </div>
+            <div class="col">
+                <h1>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat corrupti laboriosam cupiditate repudiandae est similique amet! Sunt suscipit inventore doloribus voluptas voluptatem pariatur excepturi ex dolores amet, numquam maiores? Iure.
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, ipsa. Autem ea exercitationem incidunt dolore eveniet perspiciatis assumenda totam, temporibus tempora, ipsa pariatur unde dolor error fugiat? Saepe, ea cupiditate.</p>
+                <p>
+                    <ul>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis harum pariatur rem numquam. Distinctio dolorum eligendi culpa rem excepturi officiis impedit quod sint consequuntur nihil sequi eius, inventore accusamus error.</li>
+                        <li>Blanditiis incidunt temporibus est pariatur aspernatur sit rerum inventore! Fugit, placeat culpa consectetur beatae at laborum sit necessitatibus ipsa expedita, harum optio repudiandae est voluptatibus! Architecto quod fuga ipsam sunt.</li>
+                        <li>Recusandae ipsum asperiores voluptatem, beatae numquam quis reprehenderit id, error neque quidem inventore harum, porro architecto autem nisi repellendus dolorem suscipit omnis aliquid ut eum enim. Voluptatibus consequuntur autem voluptatem!</li>
+                        <li>Animi recusandae, minus, hic delectus adipisci culpa vitae voluptatem consequuntur cum distinctio, magnam laboriosam obcaecati explicabo eaque ex! Similique at ea quasi illum distinctio commodi alias dolore! Animi, numquam voluptas.</li>
+                        <li>Consectetur nulla vitae distinctio quis reprehenderit laborum! Nesciunt commodi pariatur suscipit impedit veniam a assumenda eum aliquid tempora. Eum placeat fuga vitae hic commodi autem repudiandae sit suscipit facilis accusantium!</li>
+                    </ul>
+                </p>
+                <p style="break-before: page;">Eius minima aspernatur quis maiores magni iusto. Ducimus excepturi fugiat cupiditate. Mollitia adipisci voluptatum ut nostrum eum autem excepturi omnis dolores, odit quod qui rerum expedita magni reiciendis. Laudantium, minima.</p>
+                <p>Esse est nobis cum iure aut velit explicabo deserunt, consequatur ex, non, fuga necessitatibus? Dolores, nemo sunt! Error libero sapiente soluta quisquam esse fugit magnam, tempore commodi, sunt debitis repellat!</p>
+            </div>
+            <div class="col">
+                <h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur esse incidunt aliquam omnis odit eum earum quam quaerat. Impedit voluptatem nisi cupiditate blanditiis eveniet mollitia eum ipsam molestias qui labore.
+                </h2>
+                <img src="https://api.lorem.space/image/game?w=1080" alt="img">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam sapiente consectetur iste molestiae mollitia accusamus voluptas sit perferendis eligendi dignissimos tempore nobis, architecto aut explicabo obcaecati nostrum itaque. Animi, fugit.</p>
+                <p>Dicta sunt assumenda quis reprehenderit aperiam, quo, beatae distinctio dolorem recusandae harum eveniet maiores eum suscipit eligendi numquam explicabo, voluptate sit id? Odio dolorem deleniti nulla maxime dolor ut reiciendis?</p>
+                <p>Quod quas sit voluptates nobis totam labore quisquam! Nostrum a voluptate doloribus magni ullam totam sunt, possimus reprehenderit ea harum nisi, nemo ipsam non amet dolores at architecto. Praesentium, est!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
